@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	margin:3em auto;
+	padding:0;
+	width:800px;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+
+
+.current{
+	z-index:10;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display:table;
+}
+
+.clearfix:after {
+	clear:both;
+}
+
+.clearfix {
+	*zoom:1;
+}
+
+header,
+footer,
+nav,
+article,
+section,
+aside,
+hgroup,
+figure,
+figcaption {
+	display:block;
+}
+
+nav {
+	margin-left:1.5em;
+}
+
+ul {
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	text-align:center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav a {
+	
+	display:inline-block;
+	margin:0 0.3em;
+	padding:1em 2em;
+
+	*zoom:1;
+	
+	background-color:#666;
+	color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+	
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-radius: 15px 15px 0px 0px;
+	border-radius: 15px 15px 0px 0px;
+}
+
+nav a:hover {
+	
+	background-color:#999;
+	color:#FFF;
+}
+
+.tabgroup {
+	background-color:#999;
+	width:700px;
+	height:500px;
+	border-radius: 15px 15px 15px 15px;
+	
+	padding:25px;
+	position:absolute;
+}
+
+#tab-1 {
+/*	z-index:400;
+*/	position:absolute;
+	
+	top:25px;
+	left:25px;
+	width:700px;
+	height:500px;
+	border-radius: 15px 15px 15px 15px;
+	border: 2px solid #000000;
+
+	background-color:#900;
+
+}
+
+#tab-2 {
+/*	z-index:300;
+*/	position:absolute;
+
+	top:25px;
+	left:25px;
+	width:700px;
+	height:500px;
+	border-radius: 15px 15px 15px 15px;
+	border: 2px solid #000000;
+	background-color:#690;
+
+}
+
+#tab-3 {
+/*	z-index:200;
+*/	position:absolute;
+
+	top:25px;
+	left:25px;
+	width:700px;
+	height:500px;
+	border-radius: 15px 15px 15px 15px;
+	border: 2px solid #000000;
+
+	background-color:#06F;
+
+}
+
+#tab-4 {
+/*	z-index:100;
+*/	position:absolute;
+
+	top:25px;
+	left:25px;
+	width:700px;
+	height:500px;
+	border-radius: 15px 15px 15px 15px;
+	border: 2px solid #000000;
+
+	background-color:#F60;
+
+}
+
+p {
+	margin:4em;
+}
+
+.active {
+	background-color:#999;
+}
